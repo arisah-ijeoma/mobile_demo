@@ -19,3 +19,5 @@ samples, guidance on mobile development, and a full API reference.
 - cd into the app directory
 
 - run `flutter run`
+
+To run tests, run `flutter test`
