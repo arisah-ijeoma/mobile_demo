@@ -20,6 +20,8 @@ samples, guidance on mobile development, and a full API reference.
 
 - run `flutter run`
 
-To open the simulator, run `open -a simulator`
+To open the ios simulator, run `open -a simulator`
+
+To open the android simulator, go on [Android Studio](https://developer.android.com/studio) and open a virtual device
 
 To run tests, run `flutter test`
