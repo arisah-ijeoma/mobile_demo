@@ -20,4 +20,6 @@ samples, guidance on mobile development, and a full API reference.
 
 - run `flutter run`
 
+To open the simulator, run `open -a simulator`
+
 To run tests, run `flutter test`
