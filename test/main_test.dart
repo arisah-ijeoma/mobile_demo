@@ -6,7 +6,8 @@ void main() {
     // Build our app and trigger a frame.
     await tester.pumpWidget(MyApp());
 
-    // Verify that our app title shows
+    // Verify that app shows correct details
     expect(find.text('Listers'), findsOneWidget);
+    expect(find.text('Food tester'), findsOneWidget);
   });
 }

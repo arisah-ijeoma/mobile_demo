@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+
+import './product_manager.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +12,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Listers')
-        )
+        ),
+        body: ProductManager()
       )
     );
   }
